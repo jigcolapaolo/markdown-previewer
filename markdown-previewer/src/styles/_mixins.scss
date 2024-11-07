@@ -1,0 +1,18 @@
+@use "variables" as *;
+
+@mixin titles {
+  display: flex;
+  justify-content: space-between;
+  padding: $title-pad;
+  cursor: default;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin scrollbar-style {
+  scrollbar-color: $first-color $first-color-alt;
+  scrollbar-width: thin;
+}
